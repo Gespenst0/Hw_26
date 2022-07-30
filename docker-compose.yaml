@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: .
+    image: atimin/skypro_atimin_app
+    ports:
+      - 80:80
